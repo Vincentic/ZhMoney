@@ -1,0 +1,21 @@
+/*height=1327*/
+.container{
+    width: 960px;
+    height: 747px;
+}
+.container  .conturn{
+    width: 960px;
+    height: 718px;
+}
+.container  .conturn .leftContent{
+    height: 718px;
+}
+.container .conturn .rightContent{
+    height: 718px;
+}
+.conturn .leftContent .listmenu{
+    height: 681px;
+}
+.conturn .rightContent .listcon{
+    height: 680px;
+}

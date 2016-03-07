@@ -1,0 +1,85 @@
+*{
+padding: 0;
+border: 0;
+margin: 0;
+}
+.header{
+    width:962px;
+    height:44px;
+}
+.footer .tag p{
+    padding-top: 3px; 
+}
+.container{
+    width: 960px;
+    height: 531px;
+    background-color: #fff3c9;
+    margin-bottom: 21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    width: 960px;
+    height: 36px;
+    background-image: url('../images/title.jpg');
+}
+.title p{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+}
+.title a{
+    color: #000;
+}
+.container .title .turn{
+    position: relative;
+    width: 129px;
+    height: 20px;
+    top:9px;
+    left:20px; 
+}
+.locate{
+    width: 958px;
+    height: 493px;
+    border: 1px solid #fae681;
+}
+.contactus{
+    width: 424px;
+    height: 327px;
+    border:1px solid #dddddd;
+    margin-left: 20px;
+    margin-top: 77px; 
+    float: left;
+}
+.contactus h5{
+    position: relative;
+    left: 74px;
+    top: 58px;
+    font-size: 14px;
+}
+.contactus .brief{
+    margin-top: 98px;
+}
+.contactus p{
+    margin-left: 74px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.map{
+    width: 493px;
+    height: 327px;
+    border-top:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    margin-left: 0px;
+    margin-top: 77px; 
+    float: left;
+} 
+.mapbox{
+    width: 384px;
+    height: 306px;
+    margin-left: 18px;
+    margin-top: 5px;
+    border-top: 0.5px solid #ccc;
+    border-left: 0.5px solid #ccc;
+}

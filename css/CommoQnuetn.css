@@ -1,0 +1,28 @@
+.container{
+    width: 960px;
+    height: 529px;
+}
+.container  .conturn{
+    width: 960px;
+    height: 500px;
+}
+.container  .conturn .leftContent{
+    height: 500px;
+}
+
+.container .conturn .rightContent{
+    height: 500px;
+}
+.conturn .rightContent .rhit .turm {
+    position: relative;
+    width: 320px;
+    height: 20px;
+    top: 9px;
+    left: 20px;
+}
+.conturn .leftContent .listmenu{
+    height: 463px;
+}
+.conturn .rightContent .listcon{
+    height: 462px;
+}

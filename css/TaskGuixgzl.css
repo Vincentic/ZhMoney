@@ -1,0 +1,24 @@
+p{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.container{
+    width: 960px;
+    height: 809px;
+}
+.container  .conturn{
+    width: 960px;
+    height: 780px;
+}
+.container  .conturn .leftContent{
+    height: 780px;
+}
+.container .conturn .rightContent{
+    height: 780px;
+}
+.conturn .leftContent .listmenu{
+    height: 743px;
+}
+.conturn .rightContent .listcon{
+    height: 742px;
+}

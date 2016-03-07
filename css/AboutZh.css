@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+p{
+    font-family: "微软雅黑";
+}
+.header{
+    width:962px;
+    height:44px;
+}
+.container{
+    width: 960px;
+    height: 719px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 33px;
+}
+.container  .headturn{
+    width: 960px;
+    height: 29px;
+    background-color: #fff;
+}
+.container  .conturn{
+    width: 960px;
+    height: 690px;
+}
+.container  .conturn .leftContent{
+    width:210px;
+    height: 690px;
+    margin-right: 10px;
+    float: left;
+}
+.conturn .leftContent .lhit{
+    width: 210px;
+    height: 36px;
+    background-image: url('../images/lhit.jpg');
+}
+.conturn .leftContent .lhit .turm{
+    position: relative;
+    width: 129px;
+    height: 20px;
+    top:9px;
+    left:20px;
+}
+.conturn .leftContent .lhit  a p{
+    color: #a01630;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+}
+.conturn .leftContent .listmenu{
+    width: 208px;
+    height: 653px;
+    background-color: #fff3c9;
+    border-left:1px solid #fae681;
+    border-right:1px solid #fae681 ;
+    border-bottom:1px solid #fae681;
+}
+.conturn .leftContent .listmenu .list-title{
+    width:  190px;
+    height: 216px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.leftContent .listmenu .list-title .menu{
+    width: 190px;
+    height: 35px;
+    border-top: 1px dashed #d5d5d5;
+}
+.leftContent .listmenu .list-title #menu1{
+    border-top: none;
+    height: 36px;
+}
+.listmenu .list-title li img{
+    margin-top:12px;
+}
+.listmenu .list-title li a p{
+    margin-left: 16px;
+    margin-top: -15px;
+    font-size: 11px;
+    font-family: "微软雅黑";
+    color: #43250d;
+    font-weight: bold;
+}
+.listmenu .list-title li a p:hover{
+    color: #a01630;
+}
+.listmenu .list-title li a .on{
+    color: #a01630;
+}
+.container .conturn .rightContent{
+    width: 740px;
+    height: 690px;
+    float: left;
+}
+.conturn .rightContent .rhit{
+    width: 740px;
+    height: 36px;
+    background-image: url('../images/rhit.jpg');
+}
+.conturn .rightContent .rhit .turm{
+    position: relative;
+    width: 129px;
+    height: 20px;
+    top:9px;
+    left:20px;
+}
+.conturn .rightContent .rhit  a p{
+    color: #646464;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+}
+.conturn .rightContent .listcon{
+    width: 738px;
+    height: 652px;
+    background-color: #fff3c9;
+    border:1px solid #fae681;
+}
+.conturn .rightContent .listcon .qyjs{
+    width: 706px;
+    height: 598px;
+    margin-left: 17px;
+    margin-top: 21px;
+    border:1px solid #ddd;
+}
+.conturn .rightContent .listcon .qyjs .hanwei{
+    width: 244px;
+    height: 598px;
+    border-right: 1px solid #ddd;
+    float: left;
+}
+.rightContent .listcon .qyjs .hanwei img{
+    margin-left: 14px;
+    margin-top: 160px;
+}
+.conturn .rightContent .listcon .qyjs .para{
+    width: 461px;
+    height: 565px;
+    margin-top:33px;
+    float: left;
+}
+.rightContent .listcon .qyjs .para p{
+    text-indent: 2em;
+    line-height: 28px;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    margin-left: 10px;
+    margin-right: 18px;
+    margin-bottom: 26px;
+}
+.rightContent .listcon .qyjs .para #slide{
+    margin-top: -5px;
+}
+.container .turn{
+    position: relative;
+    width: 129px;
+    height: 20px;
+    top:5px;
+    left:10px; 
+}
+.container .turn a{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color:#c3160f;
+    float: left;
+}
+.container .turn a p{
+    color: #570000;
+}

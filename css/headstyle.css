@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+	width: 961px;
+	height: 423px;
+	margin: 0 auto;
+}
+.header .brand{
+    width: 961px;
+    height: 86px;
+    background-image: url('../images/brand.jpg');
+}
+.header #banner{
+	width: 960px;
+    height: 337px;
+    overflow: hidden; 
+    position: relative;
+}
+#banner #list { 
+    position: absolute; 
+    z-index: 1;
+}
+#banner #list img { 
+    float: left;
+}
+.header #banner #buttons { 
+    position: relative;
+    height: 10px;
+    width: 100px;
+    z-index: 2;
+    bottom: -313px;
+    left: 453px;
+}
+.header #banner #buttons span { 
+    cursor: pointer; 
+    float: left; 
+    border: 1px solid #fff; 
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%;
+    background: #333; 
+    margin-right: 5px;}
+.header #banner #buttons span p{
+    font-size: 11px;
+    font-family: "微软雅黑";
+    position: relative;
+    left: 2px;
+    top: -3px;
+}
+.header #banner #buttons .on {  
+    width:10.5px;
+    height:10.5px;
+    background: orangered;}
+.header #banner .arrow { 
+    cursor: pointer; 
+    display: block; 
+    line-height: 39px; 
+    text-align: center; 
+    font-size: 36px; 
+    font-weight: bold; 
+    width: 40px; 
+    height: 40px;  
+    position: absolute; 
+    z-index: 2; 
+    top: 180px; 
+    background-color: RGBA(0,0,0,.3); 
+    color: #fff;}
+.header #banner.arrow:hover { 
+    background-color: RGBA(0,0,0,.7);
+}
+#banner :hover .arrow { 
+    display: block;
+}
+#prev { 
+    left: 20px;
+}
+#next { 
+    right: 20px;
+}
+.header #navMenu{
+	width: 960px;
+    height: 40px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+.header #navMenu li{
+    list-style-type: none;
+}
+.header #navMenu ul li{
+    float: left;
+    margin: 0 auto;
+}
+.header #navMenu a{
+    float: left;
+}
+.header #navMenu .btn{
+	width: 92px;
+    height: 40px;
+    background-image: url('../images/btn.jpg');
+    margin-right: 1px;
+    margin-left: 3px;
+}
+
+.header #navMenu .btn p{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.dropMenu {
+    position:absolute;
+    top: 0;
+    z-index:900;
+    width: 92px;
+    visibility: hidden;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA, direction=135, strength=2);
+    margin-top: -1px;
+    padding-top:0px;
+    padding-bottom:6px;
+    -moz-opacity:0.9;
+    margin-left: 0px;
+}
+.dropMenu li {
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-left:0px;
+}
+.dropMenu a {
+    width: auto;
+    display: block;
+    width:92px;
+    height:27px;
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;  
+    background-color: #f9dd41;
+}
+.dropMenu a p{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    line-height: 27px;
+    margin-top: -3px;
+    margin-left: 14px;
+}
+* html .dropMenu a {
+    width: 100%;
+}
+.dropMenu a p:hover{
+    margin-top: 0px;
+}
+.dropMenu a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #aa020b;
+}
+#dropmenu3 li a p{
+    margin-left: 8px;
+}
+#dropmenu4 li a p{
+    margin-left: 20px;
+}
+.hint{
+    position:relative;
+    display:inline-block;
+}
+
+.hint:before, .hint:after{
+    position:absolute;
+    opacity:0;
+    z-index:1000;
+    
+    -webkit-transition:0.3s ease;
+    -moz-transition:0.3s ease;
+    pointer-events:none;
+}       
+.hint:hover:before, .hint:hover:after{
+    opacity:1;
+}
+.hint:after{
+    content:attr(data-hint);
+    background:#fff;
+    color:#575757;
+    padding: 2px 6px;
+    font-size:12px;
+    border: 1px solid #767676;
+    font-family: "微软雅黑";
+    white-space:nowrap;
+    box-shadow:4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.hint-bottom:before{
+    top:100%;
+    left:50%;
+    margin:-14px 0 0 0;
+    border-bottom-color:rgba(0, 0, 0, 0.8);
+}   
+.hint-bottom:after{
+    top: 105%;
+    left: 83%;
+    margin: -4px 0 0 -10px;
+}
+.hint-bottom:hover:before{
+    margin-top:-2px;
+}
+.hint-bottom:hover:after{
+    margin-top:3px;
+}
+.footer{
+    width: 963px;
+    height: 60px;
+    background-image: url('../images/footer.jpg');
+    margin-top: 2px;
+    margin:0 auto;
+}
+.footer .tag{
+    padding-top: 20px;
+}
+.footer .tag p{
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #edffdc;
+}
